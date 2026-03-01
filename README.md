@@ -6,10 +6,13 @@ The Logic.
 
 We treated sentiment analysis as a process of updating beliefs based on evidence:
 
- The Prior: P(Positive). We started with a neutral 0.50 probability, as the dataset is perfectly balanced.
- The Likelihood: P(Keyword|Positive). We calculated how often a word appears specifically in positive reviews.
- The Marginal: P(Keyword). We used the Law of Total Probability to find the total frequency of a word across the entire dataset.
- The Posterior: P(Positive|Keyword). This is the final result that "updates" our initial 50% guess based on the keyword found.
+ :The Prior: P(Positive). We started with a neutral 0.50 probability, as the dataset is perfectly balanced.
+ 
+ :The Likelihood: P(Keyword|Positive). We calculated how often a word appears specifically in positive reviews.
+ 
+ :The Marginal: P(Keyword). We used the Law of Total Probability to find the total frequency of a word across the entire dataset.
+
+ :The Posterior: P(Positive|Keyword). This is the final result that "updates" our initial 50% guess based on the keyword found.
  
  Key Findings.
  
