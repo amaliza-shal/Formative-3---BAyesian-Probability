@@ -27,5 +27,7 @@ Technical Implementation
  How to Run
 
  Place IMDB Dataset.csv in the project folder.
+ 
  Open the Jupyter Notebook.
+ 
  Execute all cells to generate the probability tables and analysis.
